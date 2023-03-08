@@ -16,6 +16,6 @@ public class PaisRestController {
     @GetMapping("/hola")
     public String imprimir(@PathVariable("nombre") String nombre){ //TODO hacer un saludo personalziado con el nombre
 
-        return "hola mundo";
+        return "hola mundo"+ nombre;
     }
 }
