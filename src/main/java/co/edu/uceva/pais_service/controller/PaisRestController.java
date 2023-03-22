@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/pais-servise")
+@RequestMapping("/pais-service")
 public class PaisRestController {
 
     @Autowired
